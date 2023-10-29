@@ -9,7 +9,6 @@ namespace Booleans
 
         public static bool CanSpy(bool knightIsAwake, bool archerIsAwake, bool prisonerIsAwake)
         {
-            // Se pelo menus um estiver acordado
             return knightIsAwake || archerIsAwake || prisonerIsAwake;
         }
 
